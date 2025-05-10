@@ -1,0 +1,18 @@
+.catSliderSection{ width: 100%; height: auto;padding: 30px 0px 0px;}
+.cat_slider_Main .slick-slide {padding-right: 20px !important;}
+.cat_slider_Main .item {height: 120px; width: 120px !important; background: #f4f6f4; display: flex; align-items: center;border: 1px solid rgba(0,0,0,.1) !important;border-radius: 15px; justify-content: center; cursor: pointer; padding: 10px;transition: transform 0.3s, box-shadow 0.3s; }
+.cat_slider_Main .item:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.cat_slider_Main .item .info {max-height: 65%; margin: auto; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+.cat_slider_Main .item .info img{height: 60px; width: auto;}
+.cat_slider_Main .item .text-area {height: 35%; text-align: center;    display: flex; justify-content: center; align-items: center; flex-direction: column;}
+.cat_slider_Main .item .text-area h5 {font-size: 16px; margin: auto; padding-top: 6px;font-weight: 600 !important;}
+.cat_slider_Main .slick-arrow{zoom: 80%;}
+.cat_slider_Main .slick-arrow.slick-next{top: -50px !important; right: 15px !important;}
+.cat_slider_Main .slick-arrow.slick-prev{top: -50px !important; right: 100px !important; left: inherit !important;}
+.catSliderSection .rounded-circle {  margin-top: 10px;width: 140px; height: 140px; background: #f4f6fa; border: 1px solid #d5d5d5; transition: transform 0.3s, box-shadow 0.3s;}
+.catSliderSection .rounded-circle:hover { 
+    transform:scale(1.1);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);}

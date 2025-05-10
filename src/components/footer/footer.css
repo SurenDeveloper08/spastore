@@ -1,0 +1,21 @@
+.homeFooter .footer-title {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.homeFooter .btn {
+    align-items: center;
+    display: flex;
+    justify-content: center !important;
+    background: #3bb77e;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    }
+.homeFooter .footer-icon {
+    color: #fff !important;
+}
+.homeFooter .btn:hover ,.homeFooter .btn:hover .footer-icon{
+    background: #fff;
+    color: #3bb77e !important;
+}

@@ -1,0 +1,7 @@
+.footerWrapper {padding: 45px 0px; width: 100%;}
+.footerWrapper .footerBoxes .box {background: #f4f6fa; padding: 25px 25px; border-radius: 15px; margin-bottom: 10px;height: 140px;}
+.footerWrapper .footerBoxes .box .info {padding-left: 20px;}
+.footerWrapper .footerBoxes .box .info img {position: relative; transition: all .2s ease-in-out;width: 40p}
+.footerWrapper .footerBoxes .box .info h4{font-size: 25px;font-weight: 600;}
+.footerWrapper .footerBoxes .box .info p{margin-bottom: 0px;font-size: 20px; opacity: 0.8;}
+.footerWrapper .footerBoxes .box:hover img{ transform: translateY(-15px);}

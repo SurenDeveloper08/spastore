@@ -1,0 +1,77 @@
+.newsLetterSection{
+    padding: 45px 0px;
+}
+.newsLetterSection .box {
+    background-image: linear-gradient(to bottom right, #d5ffec, #edfff7);
+    border-radius: 30px;
+    height: auto;
+    overflow: hidden;
+    padding: 60px;
+    position: relative;
+    width: 100%;
+}
+.newsLetterSection .box .info {
+    width: 55%;
+}
+.newsLetterSection .box .info h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 50px;
+    opacity: .8;
+}
+.newsLetterSection .box .info p {
+    font-size: 22px;
+    opacity: .8;
+}
+.newsLetterSection .box .newsLetterBanner
+ {
+    bottom: inherit !important;
+    left: 0 !important;
+    position: relative !important;
+}
+.newsLetterBanner {
+    bottom: 100px;
+    height: 50px;
+    left: 9%;
+    position: absolute;
+    width: 450px;
+    z-index: 10;
+}
+.newsLetterBanner input {
+    background: #fff;
+    border: 0;
+    border-radius: 60px;
+    font-size: 18px;
+    height: 100%;
+    outline: none !important;
+    padding-left: 80px;
+    padding-right: 200px;
+    width: 100%;
+}
+.newsLetterBanner button {
+    border-radius: 50px !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    height: 50px !important;
+    padding: 10px 30px !important;
+    position: absolute;
+    right: 0;
+    text-transform: capitalize !important;
+    top: 0;
+}
+.newsLetterSection .box .img {
+    bottom: 20px;
+    position: absolute;
+    right: 5%;
+}
+.newsLetterBanner svg {
+    font-size: 22px !important;
+    left: 27px;
+    opacity: .5;
+    position: absolute;
+    top: 12px;
+    -webkit-transform: rotate(-21deg);
+    transform: rotate(-21deg);
+    z-index: 10;
+}
